@@ -1,0 +1,38 @@
+{
+  "name": "@deadline/nextjs",
+  "version": "3.1.0",
+  "description": "Nextjs Coming Soon",
+  "main": "index.js",
+  "author": "RedQ Inc.",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export",
+    "vercel-build": "next build && next export -o dist"
+  },
+  "dependencies": {
+    "@formatjs/intl-pluralrules": "^5.2.6",
+    "beautiful-react-hooks": "^5.0.0",
+    "next": "^13.5.3",
+    "next-seo": "^6.1.0",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fullpage": "^0.1.19",
+    "react-icons-kit": "^2.0.0",
+    "react-intl": "^6.4.7",
+    "react-modal": "^3.16.1",
+    "react-reveal": "^1.2.2",
+    "react-scroll-parallax": "^3.3.2",
+    "react-tsparticles": "^2.12.2",
+    "styled-components": "^6.0.8",
+    "tsparticles": "^2.12.0"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs2": "^7.23.1",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.3"
+  }
+}
